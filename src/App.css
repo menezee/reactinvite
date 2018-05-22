@@ -1,0 +1,61 @@
+.app-logo {
+  animation: logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  border-bottom: 1px solid #eee;
+  width: 960px;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navbar {
+  height: 40px;
+  background-color: #ef5ba1;
+}
+
+.text {
+  font-family: 'MyFont',sans-serif;
+  line-height: 1.6em;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 100;
+  width: 960px;
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'MyFont';
+  src: url('fonts/open-sans-v15-latin-regular.woff') format('woff');
+}
+
+a {
+  color: #ee0b77;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid #ee0b77;
+}
+
+.pic-cards {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
