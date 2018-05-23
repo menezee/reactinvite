@@ -54,8 +54,13 @@ a {
 }
 
 .pic-cards {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
-  padding: 10px;
+  overflow: scroll;
+  padding: 2px;
+}
+
+.references {
+  font-size: 80%;
 }
